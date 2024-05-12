@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    background-color: azure;
+    width: 390px;
+    height: 510px;
+    border-radius: 20px;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.firstimage{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 30%;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 75%;
+    text-align: center;
+}
+.box2{
+    background-color: #8dd3e7;
+    border-radius: 10px;
+    width: 80%;
+    height: 8%;
+    padding: 8px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.secondimage{
+    border-radius: 25%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+.leftbox{
+    display: flex;
+    flex-direction: row;
+}
+.leftboxtext{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.rightbox{
+    padding: 0px;
+}
+.box1 button{
+    background-color: rgb(25, 28, 56);
+    color: azure;
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.cancel a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(46, 43, 43);
+}
